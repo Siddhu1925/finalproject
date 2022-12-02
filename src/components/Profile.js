@@ -1,6 +1,5 @@
 import React, {  useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
-import { StateContext } from '../Context/AuthProvider'
 
 const Profile = () => {
 

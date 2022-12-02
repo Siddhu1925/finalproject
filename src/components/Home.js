@@ -71,7 +71,7 @@ const Home = () => {
 
 
     const onSubmit=()=>{
-        if(!validName || !validEmail || (password !== confirmPassword) || !validPassword){
+        if(!validName || !validEmail || (password !== confirmPassword) || !validPassword || !validConfirmPassword){
             console.log("Invalid")
             setRedAlert(true);
             setGreenAlert(false);
